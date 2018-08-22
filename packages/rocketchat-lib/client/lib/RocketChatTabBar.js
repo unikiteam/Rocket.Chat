@@ -56,7 +56,7 @@ export class RocketChatTabBar {
 			button = RocketChat.TabBar.getButton(button);
 		}
 		$('.flex-tab, .contextual-bar').css('width', button.width ? `${ button.width }px` : '');
-		$('.flex-tab, .contextual-bar').css('min-width', button.width ? `${ button.width }px` : '');		
+		$('.flex-tab, .contextual-bar').css('min-width', button.width ? `${ button.width }px` : '');
 		this.template.set(button.template);
 		this.id.set(button.id);
 		return button;
